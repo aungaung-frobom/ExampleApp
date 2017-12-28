@@ -3,8 +3,19 @@
     <titile><%= yield(:title) %>  | Ruby On Rails </titile>
 </head>
 <body>
-<h1>This is My Home Page</h1>
-<p>This is home page for my site</p>
-<a href="http://www.railstutorials.org">Ruby On Rail</a>
+<div class="center jumbotron">
+  <h1>Welcome to the My page</h1>
+
+  <h2>
+    This is the home page for 
+    <a href="http://www.railstutorial.org/">Ruby on Rails</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
 </body>
 
