@@ -11,6 +11,7 @@ gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 #gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
